@@ -27,7 +27,7 @@ console.log(res)
 .then((res)=>{
 console.log(res)
 	let p = document.createElement("p")
-	p.innerText = `${res[0]} ${res[1]}`
+	p.innerText = `${res[0]},${res[1]}`
 div.append(p)
 	return new Promise((resolve,reject)=>{
 		setTimeout(()=>{
@@ -41,6 +41,6 @@ div.append(p)
 })
 .then((res)=>{
 	let p = document.createElement("p")
-	p.innerText = `${res[0]} ${res[1]}`
+	p.innerText = `${res[0]},${res[1]}`
 div.append(p)
 })
